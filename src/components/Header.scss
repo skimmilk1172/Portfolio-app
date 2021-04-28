@@ -23,6 +23,11 @@
   -ms-animation: fadeIn linear 3s;
 }
 
+.h2, h2 {
+  font-size: 1.5rem;
+  font-weight:100;
+}
+
 .second-info {
   font-family: 'Roboto Condensed', sans-serif;
   display: flex;
@@ -33,6 +38,25 @@
   -o-animation: fadeIn linear 3s;
   -ms-animation: fadeIn linear 3s;
 }
+
+h3, h3 {
+  font-size: 0.85rem;
+  font-weight: 100;
+  margin-top: 6.5rem;
+}
+
+.third-info {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+
 
 
 
