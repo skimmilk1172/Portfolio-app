@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../skim.png';
 import './Navbar.scss';
-// Reat fontawesome import
+// React fontawesome import
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
