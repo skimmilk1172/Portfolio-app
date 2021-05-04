@@ -9,7 +9,7 @@
 .contain {
   display: flex;
   height: 100%;
-  width: 50%;
+  width: 100;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -29,7 +29,8 @@
 
 img {
   margin: auto;
-  height: 46rem;
+  height: 35rem;
+  border-radius: 60px;
 }
 
 p {
@@ -38,6 +39,7 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  width: 35%;
 }
 
 .about-me-info {
@@ -46,12 +48,16 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   height: 70%;
   padding: 25px 30px;
+}
+
+.photo {
+  display: flex;
 }
 
 // .contain {
