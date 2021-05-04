@@ -3,7 +3,13 @@
 :root {
   --primary-blue: rgb(59, 193, 238);
   --primary-dark: rgba(255,255,255, 0);
-  --primary-black: black;
+  --primary-white: white;
+  --primary-orange: #f47362;
+  --primary-purple: #674b7c;
+}
+
+.navbar {
+  background-color: var(--primary-purple);
 }
 
 body {
@@ -34,9 +40,9 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-black)
+  border-top: 0.1875rem solid var(--primary-orange)
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-black)
+  border-top: 0.1875rem solid var(--primary-orange)
 }
