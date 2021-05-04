@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 
 :root {
   --primary: #f47362;
@@ -8,7 +9,7 @@
 }
 
 .btn {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Roboto Condensed' sans-serif;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -26,7 +27,7 @@
   border: 2px solid var(--primary);
   margin-top: 2rem;
   display: flex;
-  margin-left: 6.5rem;
+  margin-left: 7.5rem;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;

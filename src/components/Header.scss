@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 .header-wrapper { 
   // background-color: #674b7c;
@@ -12,9 +12,9 @@
 }
 
 .main-info {
-  font-family: 'Archivo Black', sans-serif;
-  color: #f47362;
-  display: flex;
+  font-family: 'Roboto Condensed' sans-serif;
+   color: white;
+  position: sticky;
   padding-top: 15rem;
   // flex-direction: column;
   justify-content: start;
@@ -28,17 +28,17 @@
 
 .h2, h2 {
   font-size: 1.5rem;
-  font-family: 'Judson', serif;
+  font-family: 'Roboto Condensed' sans-serif;
   font-weight:100;
-  color: #f47362;
+  color: white;
 }
 
 .second-info {
-  font-family: 'Judson', serif;
-  color: #f47362;
-  display: flex;
+  font-family: 'Roboto Condensed' sans-serif;
+  position: sticky;
+  padding-top: 2rem;
   justify-content: start;
-  margin-left: 3rem;
+  margin-left: 4.7rem;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;
@@ -50,13 +50,13 @@ h3, h3 {
   font-size: 0.85rem;
   font-weight: 100;
   margin-top: 6.5rem;
-  color: #f47362;
+  color: white;
 }
 
 .third-info {
-  font-family: 'Judson', serif;
-  color: #f47362;
-  display: flex;
+  font-family: 'Roboto Condensed' sans-serif;
+  position: sticky;
+  // padding-top: 20rem;
   margin-left: 3rem;
   justify-content: start;
   animation: fadeIn linear 3s;
