@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700');
+
+:root {
+  --primary: #f47362;
+  --white: white;
+  --back: #674b7c;
+
+}
+
+.btn {
+  font-family: 'Archivo Black', sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-6px);
+  color: var(--primary);
+}
+
+
+.btn--primary--outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
