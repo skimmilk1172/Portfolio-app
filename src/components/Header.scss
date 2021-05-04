@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700');
 
 .header-wrapper { 
-  background-color: #674b7c;
+  // background-color: #674b7c;
+  background: url(Temp.jpg);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
+
 }
 
 .main-info {
@@ -15,12 +17,13 @@
   display: flex;
   padding-top: 15rem;
   // flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;
   -o-animation: fadeIn linear 3s;
   -ms-animation: fadeIn linear 3s;
+  margin-left: 3rem;
 }
 
 .h2, h2 {
@@ -34,7 +37,8 @@
   font-family: 'Judson', serif;
   color: #f47362;
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  margin-left: 3rem;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;
@@ -53,7 +57,8 @@ h3, h3 {
   font-family: 'Judson', serif;
   color: #f47362;
   display: flex;
-  justify-content: center;
+  margin-left: 3rem;
+  justify-content: start;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;

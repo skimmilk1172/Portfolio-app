@@ -9,7 +9,8 @@
 }
 
 .navbar {
-  background-color: var(--primary-purple);
+  // background-color: var(--primary-purple);
+  background: transparent;
 }
 
 body {
@@ -30,13 +31,14 @@ nav a.nav-link {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  margin-top: 1.5rem;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5rem !important;
 }
 
 .navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
@@ -44,5 +46,10 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange)
+  border-top: 0.1875rem solid var(--primary-orange);
+  color: var(--primary-white);
+}
+
+a {
+  color: var(--primary-white);
 }
