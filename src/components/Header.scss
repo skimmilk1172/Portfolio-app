@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-.header-wrapper { 
+.whole-thing { 
   // background-color: #674b7c;
   background: url(Temp.jpg);
   position: relative;
@@ -8,22 +8,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-
 }
 
 .main-info {
   font-family: 'Roboto Condensed' sans-serif;
    color: white;
   position: sticky;
-  padding-top: 15rem;
+  padding-top: 18rem;
   // flex-direction: column;
   justify-content: start;
-  animation: fadeIn linear 1s;
-  -webkit-animation: fadeIn linear 1s;
-  -moz-animation: fadeIn linear 1s;
-  -o-animation: fadeIn linear 1s;
-  -ms-animation: fadeIn linear 1s;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 .h2, h2 {
@@ -35,63 +29,131 @@
 
 .second-info {
   font-family: 'Roboto Condensed' sans-serif;
+  flex-direction: column;
   position: sticky;
   padding-top: 2rem;
   justify-content: start;
-  margin-left: 4.7rem;
-  animation: fadeIn linear 1s;
-  -webkit-animation: fadeIn linear 1s;
-  -moz-animation: fadeIn linear 1s;
-  -o-animation: fadeIn linear 1s;
-  -ms-animation: fadeIn linear 1s;
+  margin-left: 4rem;
 }
 
 h3, h3 {
   font-size: 0.85rem;
   font-weight: 100;
-  margin-top: 6.5rem;
   color: white;
 }
 
-.third-info {
-  font-family: 'Roboto Condensed' sans-serif;
-  position: sticky;
-  // padding-top: 20rem;
-  margin-left: 3rem;
-  justify-content: start;
-  animation: fadeIn linear 1s;
-  -webkit-animation: fadeIn linear 1s;
-  -moz-animation: fadeIn linear 1s;
-  -o-animation: fadeIn linear 1s;
-  -ms-animation: fadeIn linear 1s;
+// .third-info {
+//   font-family: 'Roboto Condensed' sans-serif;
+//   position: sticky;
+//   // padding-top: 20rem;
+//   margin-left: 3rem;
+//   justify-content: start;
+//   animation: fadeIn linear 1s;
+//   -webkit-animation: fadeIn linear 1s;
+//   -moz-animation: fadeIn linear 1s;
+//   -o-animation: fadeIn linear 1s;
+//   -ms-animation: fadeIn linear 1s;
+// }
+
+
+
+
+
+
+// @keyframes fadeIn {
+//   0% {opacity:0;}
+//   100% {opacity:1;}
+// }
+
+// @-moz-keyframes fadeIn {
+//   0% {opacity:0;}
+//   100% {opacity:1;}
+// }
+
+// @-webkit-keyframes fadeIn {
+//   0% {opacity:0;}
+//   100% {opacity:1;}
+// }
+
+// @-o-keyframes fadeIn {
+//   0% {opacity:0;}
+//   100% {opacity:1;}
+// }
+
+// @-ms-keyframes fadeIn {
+//   0% {opacity:0;}
+//   100% {opacity:1;}
+// }
+
+
+
+
+
+> .header-wrapper {
+  display: inline-block;
 }
 
-
-
-
-
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+@keyframes text-clip {
+from {
+  clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+}
+to {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
 }
 
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+@keyframes outer-left {
+from {
+  transform: translateX(-50%);
+}
+to {
+  transform: none;
+}
 }
 
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+@keyframes inner-left {
+from {
+  transform: translateX(-50%);
+}
+to {
+  transform: none;
+}
 }
 
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+.main-info,
+.second-info {
+animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
+// outline: 1px solid red;
 }
 
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+// [class*='inner'] {
+//   outline: 1px solid blue;
+// }
+
+.header-wrapper {
+animation: inner-left 1s 1s ease both;
+}
+
+.main-inner {
+animation: inner-left 1s 1s ease both,
+  text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.second-inner {
+animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.header-wrapper {
+animation: outer-left 1s 1s ease both;
+}
+
+.main-info {
+// start
+> .main-inner {
+  display: inline-block;
+}
+}
+
+.second-info {
+display: inline-block;
 }
