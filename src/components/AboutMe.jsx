@@ -11,7 +11,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <section className='about'>
+    <section className='about1' id='about'>
       <container className='contain'>
         <div className='about-me-info'>
 

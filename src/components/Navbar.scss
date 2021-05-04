@@ -14,6 +14,11 @@
   background: transparent;
 }
 
+.nav-item {
+  color: white;
+  padding-top: 1.5rem;;
+}
+
 body {
   font-family: 'Roboto Condensed' sans-serif;
 }
@@ -30,10 +35,12 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  margin-right: 1.75rem;
+  margin-left: 1.75rem;
   margin-top: 1.5rem;
   border-top: 0.1875rem solid var(--primary-dark);
+  text-decoration: none;
+  padding-top: 0.7rem;
 }
 
 .navbar-brand {
@@ -49,6 +56,7 @@ nav a.nav-link {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
   color: var(--primary-white);
+  padding-top: 0.7rem;
 }
 
 a {
