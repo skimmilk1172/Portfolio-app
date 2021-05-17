@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './AboutMe.scss';
 import Picture from './sean.jpg'
 import Aos from 'aos';
@@ -9,6 +9,15 @@ const AboutMe = () => {
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
+  }, []);
+
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
@@ -42,7 +51,9 @@ const AboutMe = () => {
           {/* <div className='photo'>
             <img data-aos='fade-left' src={Picture} />
           </div> */}
-          <Balloon />
+          <div className='photo' style={{transform: `translateY(-${offsetY * 0.1}rem)` }}>
+            <Balloon />
+          </div>
           
       </div>
       </container> 
