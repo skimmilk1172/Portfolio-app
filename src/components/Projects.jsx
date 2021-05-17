@@ -1,11 +1,11 @@
 import React from 'react'
-import './Projects.sass';
+import './Projects.scss';
 
 const Projects = () => {
   return (
-    <div>
+    <section className='whole-page' id='projects'>
       
-    </div>
+    </section>
   )
 }
 
