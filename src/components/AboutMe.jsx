@@ -3,6 +3,7 @@ import './AboutMe.scss';
 import Picture from './sean.jpg'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Balloon from './Balloon';
 
 const AboutMe = () => {
 
@@ -38,9 +39,11 @@ const AboutMe = () => {
             </a>
           </h2>
         </p>
-          <div className='photo'>
+          {/* <div className='photo'>
             <img data-aos='fade-left' src={Picture} />
-          </div>
+          </div> */}
+          <Balloon />
+          
       </div>
       </container> 
     </section>

@@ -27,7 +27,7 @@ const Navbar = () => {
             offset={0}
             smooth={true}
             duration={500}
-          >HOME</Link>
+          >.home( )</Link>
         </li>
         <li className="nav-item">
             <Link
@@ -37,7 +37,7 @@ const Navbar = () => {
               offset={0}
               smooth={true}
               duration={500}
-            >ABOUT ME</Link>
+            >.aboutMe( )</Link>
         </li>
         <li className="nav-item">
           <Link
@@ -47,7 +47,7 @@ const Navbar = () => {
             offset={0}
             smooth={true}
             duration={500}
-          >PROJECTS</Link>
+          >.projects( )</Link>
         </li>
         <li className="nav-item">
           <Link
@@ -57,7 +57,7 @@ const Navbar = () => {
             offset={0}
             smooth={true}
             duration={500}
-          >CONTACT</Link>
+          >.contact( )</Link>
         </li>
 
       </ul>
