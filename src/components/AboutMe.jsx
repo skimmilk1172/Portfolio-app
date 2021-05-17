@@ -27,7 +27,7 @@ const AboutMe = () => {
 
         <p data-aos='fade-right'>
           <h1 className='wordCarousel'>
-            <span>Who Am I?</span>
+            <span className='who-am-i'>Who Am I?</span>
             <div>
               <ul className='flip4'>
                 <li>Sihun Sean Kim</li>

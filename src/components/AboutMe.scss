@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+// .about1 {
+//   height: 100vh;
+//   background-color: lightgrey;
+//   margin: auto;
+// }
+
 .about1 {
+  background: url(sky.jpg);
+  // position: relative;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   height: 100vh;
-  background-color: lightgrey;
-  margin: auto;
 }
 
 .contain {
@@ -75,9 +84,13 @@ p {
 // }
 
 
+.who-am-i {
+  font-weight: 700;
+}
+
 .para {
   background: 
-    linear-gradient(to right, lightgrey, lightgrey),
+    linear-gradient(to right, #7497a8, #7497a8),
     linear-gradient(to right, white, white, white);
     // linear-gradient(to right, black, black, black);
     // linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));

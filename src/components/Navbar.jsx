@@ -26,7 +26,7 @@ const Navbar = () => {
             spy={true}
             offset={0}
             smooth={true}
-            duration={500}
+            duration={1000}
           >.home( )</Link>
         </li>
         <li className="nav-item">
@@ -36,7 +36,7 @@ const Navbar = () => {
               spy={true}
               offset={0}
               smooth={true}
-              duration={500}
+              duration={1000}
             >.aboutMe( )</Link>
         </li>
         <li className="nav-item">
@@ -46,7 +46,7 @@ const Navbar = () => {
             spy={true}
             offset={0}
             smooth={true}
-            duration={500}
+            duration={1000}
           >.projects( )</Link>
         </li>
         <li className="nav-item">
@@ -56,7 +56,7 @@ const Navbar = () => {
             spy={true}
             offset={0}
             smooth={true}
-            duration={500}
+            duration={1000}
           >.contact( )</Link>
         </li>
 
