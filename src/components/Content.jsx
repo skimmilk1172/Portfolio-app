@@ -2,6 +2,7 @@ import React from 'react';
 import Repos from './Repos';
 import { Grid } from '@material-ui/core';
 import projectList from './constants';
+import './Repos.scss';
 
 
 const Content = () => {

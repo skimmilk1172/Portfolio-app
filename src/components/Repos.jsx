@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
+import './Repos.scss';
 
 
 
@@ -14,23 +15,29 @@ const Repos = (props) => {
 
   return (
     <Card>
+      <h1>
       <CardHeader
         title={title}
       />
+      </h1>
       <CardMedia
-        style={{ height: '150px' }}
+        style={{
+          height: 0,
+          paddingTop: '56.25%', // 16:9,
+          marginTop:'30'
+        }}
         image={imgUrl}
       />
       <CardContent>
-        <Typography variant="body2" component="p">
+        <Typography variant="body2" component="p" className='description'>
           {description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">GITHUB</Button>
+        <Button onClick={() => window.open(gitLink, '_blank')} size="small">GITHUB</Button>
       </CardActions>
     </Card>
   );
 }
 
-export default Repos;
+export default Repos
