@@ -15,7 +15,7 @@ import Inspect from './Inspect';
 const Projects = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 2000 });
   }, []);
 
 
@@ -34,7 +34,7 @@ const Projects = () => {
       <div>
         <h1 className='wrapper'>&lt;projects&gt;</h1>
           <Grid 
-            data-aos='flip-up'
+            data-aos='fade-up'
             item
             container
             spacing={0}
