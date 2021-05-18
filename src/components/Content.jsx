@@ -4,6 +4,7 @@ import { Grid } from '@material-ui/core';
 import projectList from './constants';
 import './Repos.scss';
 
+//Maps though projectList from constants to Projects.jsx
 
 const Content = () => {
 

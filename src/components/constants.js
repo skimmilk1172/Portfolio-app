@@ -3,6 +3,10 @@ import Kermit from './images/kermit.jpg';
 import Tweeter from './images/tweeter.jpg';
 import Schedule from './images/schedule.jpg'
 
+
+
+//All information for projects, add object into props in Repos.jsx
+
 export default [
   {
     title:'Housemate',
