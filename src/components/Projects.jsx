@@ -34,19 +34,19 @@ const Projects = () => {
       <div>
         <h1 className='wrapper'>&lt;projects&gt;</h1>
           <Grid 
-            data-aos='fade-up'
+            data-aos='flip-up'
             item
             container
             spacing={0}
             direction="column"
             alignItems="center"
             justify="center"
-            style={{ minHeight: '100vh' }}>
-              <Grid item xs={0} sm={8} />
-              <Grid item xs={12} sm={8}>
+            style={{ minHeight: '10vh' }}>
+              <Grid item xs={0} sm={10} m={4} l={1} />
+              <Grid item xs={12} sm={10} m={4} l={1}>
                 <Content />
               </Grid>
-              <Grid item xs={0} sm={8} />
+              <Grid item xs={0} sm={12} />
           </Grid>
         <h1 className='wrapper'>&lt;/projects&gt;</h1>
       </div>
