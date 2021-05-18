@@ -9,6 +9,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
+  min-height: 100vh;
 }
 
 .main-info {
@@ -158,3 +159,5 @@ animation: outer-left 1s 1s ease both;
 .second-info {
 display: inline-block;
 }
+
+
