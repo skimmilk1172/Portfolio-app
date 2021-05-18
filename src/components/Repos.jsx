@@ -28,7 +28,7 @@ const Repos = (props) => {
         }}
         image={imgUrl}
       />
-      <CardContent>
+      <CardContent display='flex' justify="center">
         <Typography variant="body2" component="p" className='description'>
           {description}
         </Typography>
