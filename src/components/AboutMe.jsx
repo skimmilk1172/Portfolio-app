@@ -51,7 +51,7 @@ const AboutMe = () => {
           {/* <div className='photo'>
             <img data-aos='fade-left' src={Picture} />
           </div> */}
-          <div className='photo' style={{transform: `translateY(-${offsetY * 0.1}rem)` }}>
+          <div className='photo' style={{ transform: `translateY(-${offsetY * 0.1}rem)` }}>
             <Balloon />
           </div>
           

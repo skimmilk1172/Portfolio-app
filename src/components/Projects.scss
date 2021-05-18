@@ -1,11 +1,11 @@
 .whole-page {
   height: 150vh;
-  background-color: lightgrey;
-  // margin: auto;
+  background: url(./images/proj-back.jpeg);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1;
 }
 
 .wrapper {
@@ -14,4 +14,17 @@
   margin-left: 10rem;
   margin-bottom: 3rem;
   // margin-top: 3rem;
+}
+
+// .div1 {
+//   z-index: 1;
+// }
+
+.undraw {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -37rem;
+  margin-right: 18rem;
+  z-index: -1;
+
 }

@@ -19,7 +19,7 @@ export default [
   {
     title:'Tweeter',
     description:'Single page application where users can write collaborative stories. Registered users can start a story or continue existing open stories. Users not registered can vote on suggested addendums to existing stories.\
-    \Front-end: jQuery, Ajax, HTML, CSS, SASS\
+    Front-end: jQuery, Ajax, HTML, CSS, SASS\
     Back-end: Node, Express, postgreSQL',
     imgUrl: `${Tweeter}`,
     gitLink:'https://github.com/skimmilk1172/tweeter',
